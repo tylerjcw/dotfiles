@@ -1,0 +1,4 @@
+#define gimpTab_width 8
+#define gimpTab_height 8
+static unsigned char gimpTab_bits[] = {
+   0xad, 0x81, 0xbd, 0xbd, 0xbd, 0xbd, 0xbd, 0xbd };

@@ -1,0 +1,4 @@
+source $HOME/etc/zsh/funcs.zsh
+source $HOME/etc/zsh/alias.zsh
+source $HOME/etc/zsh/colors.zsh
+source $HOME/etc/zsh/completions.zsh

@@ -1,0 +1,9 @@
+export ICONDIR="$HOME/etc/dwm/icons"
+export EDITOR="vim"
+export VISUAL=$EDITOR
+
+# ensure my bin directory is loaded first
+export PATH=$HOME/bin:$PATH
+
+#make grep prettier with green
+export GREP_COLOR="1;32"

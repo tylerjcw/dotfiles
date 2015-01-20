@@ -1,0 +1,43 @@
+sw_volume: 30
+audio_device_state:1:my_fifo
+audio_device_state:1:pulse audio
+audio_device_state:1:tc1100 pulse audio
+state: play
+current: 20
+time: 119.965000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Rap & Hip Hop/Eminem-Recovery-(Retail)-2010-[NoFS]/11-Eminem-Cinderella Man.mp3
+1:Rap & Hip Hop/Eminem - Nightmare On Em Street/Drop The World.mp3
+2:Rap & Hip Hop/Kanye West - Power-2010-MIXFIEND/06 Kanye West - Alors On Danse.mp3
+3:Rap & Hip Hop/Kanye West - Power-2010-MIXFIEND/01 Kanye West - Power.mp3
+4:Trapstep/Willy Joy/Jack (willy joy & lambo bootleg).mp3
+5:Techno/Daft Punk/Tron Legacy Special Edition/01 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Overture.mp3
+6:Techno/Daft Punk/Tron Legacy Special Edition/02 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_The Grid.mp3
+7:Techno/Daft Punk/Tron Legacy Special Edition/03 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_The Son Of Flynn.mp3
+8:Techno/Daft Punk/Tron Legacy Special Edition/04 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Recognizer.mp3
+9:Techno/Daft Punk/Tron Legacy Special Edition/05 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Armory.mp3
+10:Techno/Daft Punk/Tron Legacy Special Edition/06 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Arena.mp3
+11:Techno/Daft Punk/Tron Legacy Special Edition/07 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Rinzler.mp3
+12:Techno/Daft Punk/Tron Legacy Special Edition/08 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_The Game Has Changed.mp3
+13:Techno/Daft Punk/Tron Legacy Special Edition/09 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Outlands.mp3
+14:Techno/Daft Punk/Tron Legacy Special Edition/10 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Adagio For Tron.mp3
+15:Techno/Daft Punk/Tron Legacy Special Edition/11 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Nocturne.mp3
+16:Techno/Daft Punk/Tron Legacy Special Edition/12 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_End Of Line.mp3
+17:Techno/Daft Punk/Tron Legacy Special Edition/13 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Derezzed.mp3
+18:Techno/Daft Punk/Tron Legacy Special Edition/14 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Fall.mp3
+19:Techno/Daft Punk/Tron Legacy Special Edition/15 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Solar Sailer.mp3
+20:Techno/Daft Punk/Tron Legacy Special Edition/16 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Rectifier.mp3
+21:Techno/Daft Punk/Tron Legacy Special Edition/17 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Disc Wars.mp3
+22:Techno/Daft Punk/Tron Legacy Special Edition/18 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_C.L.U..mp3
+23:Techno/Daft Punk/Tron Legacy Special Edition/19 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Arrival.mp3
+24:Techno/Daft Punk/Tron Legacy Special Edition/20 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Flynn Lives.mp3
+25:Techno/Daft Punk/Tron Legacy Special Edition/21 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Tron Legacy (End Titles).mp3
+26:Techno/Daft Punk/Tron Legacy Special Edition/22 Daft Punk_2010 - Tron Legacy Special Edition (Disc 1)_Finale.mp3
+playlist_end

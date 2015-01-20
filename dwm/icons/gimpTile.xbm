@@ -1,0 +1,4 @@
+#define gimpTile_width 8
+#define gimpTile_height 8
+static unsigned char gimpTile_bits[] = {
+   0xad, 0xad, 0x8d, 0xad, 0xad, 0x8d, 0xad, 0xad };

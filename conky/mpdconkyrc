@@ -1,0 +1,14 @@
+background no
+short_units yes
+out_to_console yes
+# Update interval in seconds
+update_interval 1.0
+
+TEXT
+$if_mpd_playing\
+         ^fg(\#98CBFE)MPD Now Playing^fg()
+ Artist  ^fg(\#98CBFE)${mpd_artist}^fg()
+ Album   ^fg(\#98CBFE)${mpd_album}^fg()
+ Track   ^fg(\#98CBFE)${mpd_title}^fg()
+ ${exec /home/komrade/bin/dzenBar.sh}
+$endif
