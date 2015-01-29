@@ -1,0 +1,31 @@
+[18:37:22] [Client thread/INFO]: Setting user: komrade_toast
+[18:37:22] [Client thread/INFO]: (Session ID is token:f0fc147e24044ff0a56649bf5157d634:d4cef7fe88a540978953d8c594172777)
+[18:37:26] [Client thread/INFO]: LWJGL Version: 2.9.1
+[18:37:26] [Client thread/INFO]: Reloading ResourceManager: Default
+[18:37:27] [Client thread/ERROR]: Couldn't initialize twitch stream
+[18:37:27] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[18:37:27] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[18:37:27] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[18:37:27] [Thread-6/INFO]: OpenAL initialized.
+[18:37:27] [Sound Library Loader/INFO]: Sound engine started
+[18:37:33] [Client thread/INFO]: Created: 512x512 textures-atlas
+[18:37:39] [Client thread/INFO]: Connecting to 192.168.1.2, 25565
+[18:37:42] [Client thread/INFO]: [CHAT] komrade_toast joined the game.
+[18:37:42] [Client thread/INFO]: [CHAT] Welcome, komrade_toast!
+[18:37:42] [Client thread/INFO]: [CHAT] Type /help for a list of commands.
+[18:37:42] [Client thread/INFO]: [CHAT] Type /list to see who else is online.
+[18:37:42] [Client thread/INFO]: [CHAT] Players online: 1 - World time: 1:07 PM
+[18:37:42] [Client thread/INFO]: [CHAT] You have no new mail.
+[18:42:41] [Client thread/INFO]: [CHAT] * komrade_toast is now AFK.
+[19:32:36] [Client thread/ERROR]: Item entity 66489 has no item?!
+[19:39:02] [Client thread/ERROR]: Item entity 67152 has no item?!
+[21:16:31] [Client thread/ERROR]: Item entity 73777 has no item?!
+[21:16:31] [Client thread/ERROR]: Item entity 73777 has no item?!
+[21:58:36] [Client thread/ERROR]: Item entity 76827 has no item?!
+[22:00:15] [Client thread/ERROR]: Item entity 77128 has no item?!
+[22:08:15] [Client thread/ERROR]: Item entity 77634 has no item?!
+[22:08:15] [Client thread/ERROR]: Item entity 77634 has no item?!
+[23:31:32] [Client thread/INFO]: [CHAT] * komrade_toast is no longer AFK.
+[23:33:05] [Client thread/INFO]: Stopping!
+[23:33:05] [Client thread/INFO]: SoundSystem shutting down...
+[23:33:05] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

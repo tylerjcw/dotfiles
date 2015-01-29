@@ -1,4 +1,13 @@
 source $HOME/etc/zsh/funcs.zsh
 source $HOME/etc/zsh/alias.zsh
-source $HOME/etc/zsh/colors.zsh
 source $HOME/etc/zsh/completions.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+##= History configuration
+export HISTSIZE=2000
+export HISTFILE=$HOME/etc/zsh/history
+export SAVEHIST=2000
+
+##== Directory Stack
+export DIRSTACKFILE=$HOME/etc/zsh/dirs
+export DIRSTACKSIZE=20

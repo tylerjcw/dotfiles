@@ -1,0 +1,10 @@
+scrotfldrbase=/home/komrade/images/scrots
+fontsize=14
+fillcolor=white
+whiteterm=yes
+subw=130
+subh=5
+jpgquality=100
+type=png
+fontpath=/usr/share/fonts/TTF/DejaVuSansMono.ttf
+datestamp=yes

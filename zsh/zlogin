@@ -1,13 +1,12 @@
-source $HOME/etc/zsh/colors.zsh
+source $HOME/etc/zsh/zshenv
+
 clear
 
-if [[ -x $(which pacman) ]]; then
-    echo -e "Please wait, updating ${BLU}pacman${WHT} repos..."
-    sudo pacman -Sy &> $HOME/log/pacman.log
-fi
+echo -e "Please wait, updating ${BLU}pacman${WHT} repos..."
+sudo pacman -Sy &> $HOME/log/pacman.log
+sudo pacman -Qu | wc -l > $HOME/log/updates.log
 
-mpd -v --no-daemon &> $HOME/log/mpd.log &
+mpd -v &> $HOME/log/mpd.log &
 
-sleep .5 
 clear
-echo -e "Welcome to ${BLU}ArchLinux${WHT}, $(whoami)!\n"
+echo -e "Welcome to ${blu}ArchLinux${rst}, $(whoami)!\n"

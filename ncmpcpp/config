@@ -25,9 +25,9 @@ ncmpcpp_directory = ~/.ncmpcpp
 #
 ##### connection settings #####
 #
-mpd_host = erebor
+mpd_host = 192.168.1.2
 #
-#mpd_port = 6600
+#mpd_port = 8000
 #
 #mpd_connection_timeout = 5
 #
@@ -84,7 +84,7 @@ visualizer_in_stereo = yes
 ## Keep in mind that sane values start with >=10.
 ##
 #
-visualizer_sync_interval = 30
+visualizer_sync_interval = 10
 #
 ##
 ## Note: To enable spectrum frequency visualization
@@ -93,9 +93,9 @@ visualizer_sync_interval = 30
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-visualizer_type = spectrum
+visualizer_type = wave 
 
-visualizer_look = ●▮
+visualizer_look = ▮▮
 #
 #visualizer_color = blue, cyan, green, yellow, magenta, red
 #visualizer_color = magenta

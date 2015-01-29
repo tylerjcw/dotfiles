@@ -1,0 +1,25 @@
+: 1422542578:0;ln -s etc/vim/viminfo .viminfo
+: 1422542634:0;vim bin/repscrot
+: 1422542749:0;vim .zshrc
+: 1422542994:0;zup
+: 1422543013:0;cd etc
+: 1422543017:0;cd
+: 1422543018:0;zcl
+: 1422543056:0;rm .viminfo
+: 1422543065:0;ln -s etc/vim/viminfo .viminfo
+: 1422543072:0;vim .viminfo
+: 1422543141:0;ln -s etc/gtk-3.0/bookmarks .gtk-bookmarks
+: 1422543174:0;ln -s etc/sane .sane
+: 1422543207:0;ln -s etc/mplayer .mplayer
+: 1422543330:0;cd etc
+: 1422543335:0;git add
+: 1422543339:0;git add .
+: 1422543347:0;git push
+: 1422543360:0;git push origin master
+: 1422543421:0;git commit
+: 1422543460:0;git config --global user.email "tyler.j.cw@gmail.com"
+: 1422543474:0;git config --global user.name "Tyler J. C-W"
+: 1422543477:0;git commit
+: 1422543497:0;git commit all
+: 1422543503:0;git commit .
+: 1422543569:0;git add .

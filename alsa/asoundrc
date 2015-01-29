@@ -1,0 +1,9 @@
+pcm.!default {
+  type hw
+  card ThinkPadEC
+}
+
+ctl.!default {
+  type hw
+  card ThinkPadEC
+}

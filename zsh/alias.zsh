@@ -1,8 +1,10 @@
-alias zcl="clear"
+#!/bin/zsh
+alias zcl="clear && echo -e \"Welcome to ${blu}ArchLinux${rst}, $(whoami)!\n\""
 alias zup="source ~/.zshrc"
-alias mpd="mpd ~/etc/mpd/mpd.conf"
+alias mpd="mpd $CONFDIR/mpd/mpd.conf"
 alias icanhazip="curl ipv6.icanhazip.com;curl ipv4.icanhazip.com"
 alias suspend="sudo systemd start systemd-suspend.service"
 alias pacman="sudo pacman"
 alias systemctl="sudo systemctl"
 alias subl="subl 2> /dev/null"
+alias scan="scanimage -d pixma --format=tiff >"
