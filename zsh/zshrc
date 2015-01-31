@@ -1,6 +1,7 @@
 source $HOME/etc/zsh/funcs.zsh
 source $HOME/etc/zsh/alias.zsh
 source $HOME/etc/zsh/completions.zsh
+source $HOME/etc/zsh/zshenv
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 ##= History configuration

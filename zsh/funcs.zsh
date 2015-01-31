@@ -3,9 +3,9 @@
 function netup() #== Checks to see if network is up
 {
     if [[ $(ip link | gawk '/3: wls3:/{print $9}')=='UP' ]]; then
-        echo up
+        echo true
     else
-        echo down
+        echo false
     fi
 }
 
@@ -34,13 +34,9 @@ function makedwm() #== Makes and Installs DWM with makepkg and pacman
 
 function makestatus() #== Compiles dwmstatus.c and copies the resulting binary to ~/bin
 {
-    pushd $HOME/code/dwmstatus &> /dev/null
-    gcc -o dwmstatus dwmstatus.c
-    popd &> /dev/null
+    (pushd $HOME/code/dwmst; make uninstall clean; make; make install clean; popd) &> /dev/null
     pkill dzen2
-    sleep 1
-    cp $HOME/code/dwmstatus/dwmstatus $HOME/bin/dwmstatus
-    $HOME/etc/dwm/dwmstatus.sh & disown
+    $HOME/etc/dwm/status.sh & disown
 }
 
 function maketabbed() #== Makes and Installs tabbed with makepkg and pacman
@@ -55,7 +51,7 @@ function makesurf() #== Makes and Installs surf with makepkg and pacman
 
 function hexcol() #== Displays XResources colors in Hexidecimal format (#RRGGBB)
 {
-    xres="$HOME/etc/xresources"
+    xres="$HOME/etc/X11/xresources"
 
     colors=( $( sed -re '/^!/d; /^$/d; /^#/d; s/(\.color)([0-9]):/\10\2:/g;' $xres | grep 'color[01][0-9]:' | sort | sed  's/^.*: *//g' ) )
 
@@ -75,10 +71,10 @@ function hexcol() #== Displays XResources colors in Hexidecimal format (#RRGGBB)
 function coltable() #== Displays the color table
 {
     T='▉▉▉'   # The test text
-    echo -e "\n          0m     40m     41m     42m     43m     44m     45m     46m     47m";
+    echo -e "\n                    0m     40m     41m     42m     43m     44m     45m     46m     47m";
     for FGs in '    m' '   1m' '  30m' '1;30m' '  31m' '1;31m' '  32m'            '1;32m' '  33m' '1;33m' '  34m' '1;34m' '  35m' '1;35m'            '  36m' '1;36m' '  37m' '1;37m';
         do FG=${FGs// /}
-        echo -en " $FGs \033[$FG  $T  "
+        echo -en "           $FGs \033[$FG  $T  "
         for BG in 40m 41m 42m 43m 44m 45m 46m 47m;
             do echo -en "$EINS \033[$FG\033[$BG  $T  \033[0m";
         done

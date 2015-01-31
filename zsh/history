@@ -1,25 +1,427 @@
-: 1422542578:0;ln -s etc/vim/viminfo .viminfo
 : 1422542634:0;vim bin/repscrot
 : 1422542749:0;vim .zshrc
-: 1422542994:0;zup
-: 1422543013:0;cd etc
-: 1422543017:0;cd
-: 1422543018:0;zcl
 : 1422543056:0;rm .viminfo
 : 1422543065:0;ln -s etc/vim/viminfo .viminfo
 : 1422543072:0;vim .viminfo
 : 1422543141:0;ln -s etc/gtk-3.0/bookmarks .gtk-bookmarks
 : 1422543174:0;ln -s etc/sane .sane
 : 1422543207:0;ln -s etc/mplayer .mplayer
-: 1422543330:0;cd etc
 : 1422543335:0;git add
-: 1422543339:0;git add .
 : 1422543347:0;git push
-: 1422543360:0;git push origin master
-: 1422543421:0;git commit
 : 1422543460:0;git config --global user.email "tyler.j.cw@gmail.com"
 : 1422543474:0;git config --global user.name "Tyler J. C-W"
 : 1422543477:0;git commit
 : 1422543497:0;git commit all
 : 1422543503:0;git commit .
-: 1422543569:0;git add .
+: 1422543634:0;git commit "massive updates"
+: 1422543643:0;git commit * "massive updates"
+: 1422543648:0;git commit origin "massive updates"
+: 1422543797:0;git remove
+: 1422543825:0;git rm --cached minecraft
+: 1422543833:0;git rm -r --cached minecraft
+: 1422543843:0;git commit -m "massive changes
+: 1422543845:0;git commit -m "massive changes"
+: 1422544262:0;packer -S mupdf
+: 1422544394:0;man mupdf
+: 1422544478:0;vim .zshenv
+: 1422545269:0;ls -la
+: 1422545279:0;ln -s etc/X11/xinitrc .xinitrc
+: 1422545336:0;echo $(189.27+2)
+: 1422545343:0;echo $[[189.27+2]]
+: 1422545347:0;echo $[189.27+2]
+: 1422545373:0;echo $[189.27+200.47+119.97+211.29]
+: 1422545499:0;echo $[1279.55-721]
+: 1422545555:0;ln -s etc/X11/xbindkeysrc .xbindkeysrc
+: 1422545570:0;ln -s etc/vim/vimrc .vimrc
+: 1422545590:0;ln -s etc/tmux/tmux.conf .tmux.conf
+: 1422545658:0;ln -s etc/alsa/asoundrc .asoundrc
+: 1422547356:0;cd bin
+: 1422547360:0;git status
+: 1422547371:0;git status -sb
+: 1422547386:0;git add .
+: 1422547401:0;git commit -m "Cleaned up"
+: 1422547408:0;git push origin master
+: 1422547432:0;git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+: 1422547441:0;git log
+: 1422547454:0;git log --all --graph
+: 1422547487:0;addalias gitlog "git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+: 1422547492:0;gitlog
+: 1422547629:0;git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --"
+: 1422547631:0;git lg
+: 1422547669:0;pacman -S lighttpd
+: 1422547725:0;git instaweb etc
+: 1422547728:0;cd etc
+: 1422548010:0;git instaweb stop
+: 1422548017:0;git instaweb kill
+: 1422548023:0;git instaweb --stop
+: 1422548029:0;cd ~/bin
+: 1422548032:0;git instaweb
+: 1422550208:0;vcat /usr/share/pacman/PKGBUILD.proto
+: 1422551044:0;ln -s etc/top/toprc .toprc
+: 1422551305:0;cat /sys/class/power_supply/AC/power/runtime_status
+: 1422551342:0;cat /sys/class/power_supply/AC/online
+: 1422551349:0;cat /sys/class/power_supply/AC/type
+: 1422551468:0;cat /sys/power/disk
+: 1422551476:0;cat /sys/power/image_size
+: 1422551484:0;cat /sys/power/state
+: 1422551532:0;cat /sys/module/thinkpad_acpi/coresize
+: 1422551576:0;cat /sys/module/thinkpad_acpi/parameters/volume_control
+: 1422551582:0;cat /sys/module/thinkpad_acpi/parameters/volume_mode
+: 1422551585:0;cat /sys/module/thinkpad_acpi/parameters/volume_capabilities
+: 1422551591:0;cat /sys/module/thinkpad_acpi/parameters/fan_control
+: 1422551597:0;cat /sys/module/thinkpad_acpi/parameters/brightness_enable
+: 1422551611:0;cat /sys/module/thinkpad_acpi/parameters/brightness_mode
+: 1422551630:0;cat /sys/module/thinkpad_acpi/parameters/id
+: 1422551635:0;cat /sys/module/thinkpad_acpi/parameters/index
+: 1422551640:0;cat /sys/module/thinkpad_acpi/parameters/enable
+: 1422551643:0;cat /sys/module/thinkpad_acpi/parameters/experimental
+: 1422551652:0;cat /sys/module/thinkpad_acpi/parameters/force_load
+: 1422551661:0;cat /sys/module/thinkpad_acpi/version
+: 1422551667:0;cat /sys/module/thinkpad_acpi/initsize
+: 1422551672:0;cat /sys/module/thinkpad_acpi/initstate
+: 1422551683:0;cat /sys/module/thinkpad_acpi/refcnt
+: 1422551689:0;cat /sys/module/thinkpad_acpi/srcversion
+: 1422551696:0;cat /sys/module/thinkpad_acpi/taint
+: 1422551707:0;cat /sys/module/thinkpad_acpi/uevent
+: 1422551711:0;sudo cat /sys/module/thinkpad_acpi/uevent
+: 1422551897:0;gcc -o mem mem.c
+: 1422552570:0;gcc -o xkill xkill.c -lX11
+: 1422552574:0;./xkill
+: 1422552603:0;cp code/xkill/xkill bin/xkill
+: 1422552607:0;xkill
+: 1422552969:0;pacman -Sup
+: 1422552994:0;pacman -Sup >> pacupdates
+: 1422552998:0;cat pacupdates
+: 1422553972:0;pacman -S xfd
+: 1422553976:0;pacman -S xorg-xfd
+: 1422553981:0;xfd
+: 1422553988:0;xfd stlarch
+: 1422553993:0;xfd -fn stlarch
+: 1422554009:0;xfd -fn -*-stlarch-*-*-*-*-*-*-*-*-*-*-*-*
+: 1422554016:0;xfd -fa -*-stlarch-*-*-*-*-*-*-*-*-*-*-*-*
+: 1422554141:0;pacman -S gucharmap
+: 1422555270:0;pacman -S iniparser
+: 1422555278:0;ls
+: 1422555300:0;xset --help
+: 1422555364:0;pgrep
+: 1422555370:0;pgrep dwm
+: 1422555473:0;pgrep -U komrade -x dwm
+: 1422581343:0;sudo wifi-menu
+: 1422581393:0;alsamixer
+: 1422581936:0;pacman -S pavucontrol
+: 1422582079:0;pavucontrol
+: 1422582162:0;packer -S puleaudio
+: 1422582184:0;packer -S pulseaudio
+: 1422601487:0;xrdb -merge etc/X11/xresources
+: 1422607127:0;gcc -o mem mem.c -lX11
+: 1422607130:0;./mem
+: 1422607175:0;code/sysinfo/sysinfo
+: 1422607204:0;cd code/sysinfo
+: 1422607222:0;./sysinfo
+: 1422607990:0;man systemd.timer(5)
+: 1422607993:0;man systemd.timer
+: 1422608041:0;man systemd.time
+: 1422608297:0;sudo vim /etc/systemd/system/bakupd.service
+: 1422608371:0;sudo vim /etc/systemd/system/bakupd.timer
+: 1422608487:0;systemctl start backupd.timer
+: 1422608492:0;systemctl start backupd.service
+: 1422608574:0;pacman -S cronie
+: 1422608878:0;chmod +x bin/pacups
+: 1422609937:0;cd code/xkill
+: 1422612900:0;sudo vim /boot/syslinux/syslinux.cfg
+: 1422612949:0;sudo mkinitcpio -p linux
+: 1422613005:0;pacman -Ss iotop
+: 1422613009:0;pacman -S iotop
+: 1422613015:0;iotop -boqqq
+: 1422613020:0;sudo iotop -boqqq
+: 1422613077:0;sudo vim /etc/fstab
+: 1422613213:0;fstrim -v /
+: 1422613215:0;sudo fstrim -v /
+: 1422613268:0;which fstrim
+: 1422613451:0;/usr/bin/sudo /usr/bin/fstrim -v /
+: 1422613578:0;sudo vim /etc/makepkg.conf
+: 1422614119:0;ls srv/minecraft
+: 1422614159:0;mount /srv/*
+: 1422614164:0;mount /srv/minecraft
+: 1422614168:0;mount srv/minecraft
+: 1422614172:0;mount srv/storage
+: 1422615202:0;packer -Ss dwarf-fortress
+: 1422615209:0;packer -Ss dwarf fortress
+: 1422615265:0;packer -Ss dwarffortress
+: 1422615271:0;packer -S dwarffortress
+: 1422615349:0;dwarffortress
+: 1422616449:0;ls /sys/devices/cpu/events/cpu-cycles
+: 1422616460:0;cat /sys/devices/cpu/events/cpu-cycles
+: 1422646558:0;chvt 2
+: 1422646604:0;chvt 4
+: 1422648212:0;dwmstatus -h -g
+: 1422648553:0;dwmstatus -h
+: 1422648565:0;dwmstatus --help
+: 1422648793:0;dwmstatus -v
+: 1422648802:0;ls -h
+: 1422648806:0;ls --help
+: 1422648970:0;etc/dwm/status.sh
+: 1422648976:0;vim etc/dwm/status.sh
+: 1422648999:0;dwmst -h
+: 1422649077:0;./dwmst -v
+: 1422649244:0;./dwmst -h
+: 1422649548:0;./dwmst -vi 3
+: 1422649834:0;./dwmst -i
+: 1422649845:0;./dwmst -i .75
+: 1422649852:0;./dwmst -i .1
+: 1422649855:0;./dwmst -i 1
+: 1422650059:0;cd code/dwmstatus
+: 1422650730:0;shutdown now
+: 1422680959:0;ping -c 3 www.google.com
+: 1422681178:0;testsshfs
+: 1422681448:0;netup
+: 1422682356:0;./dwmst -i 3
+: 1422682769:0;gcc -o host hostname.c
+: 1422682772:0;./host
+: 1422682775:0;hostname
+: 1422683889:0;dwmst
+: 1422683984:0;uname -r
+: 1422685633:0;cd
+: 1422686634:0;date --help
+: 1422686713:0;./unamer
+: 1422686850:0;gcc -o unamer unamer.c
+: 1422687017:0;time amixer -c 29 get 'Console' | awk '/^  Mono.*/ {print $5==\"[off]\"?\"---\":$4}' | sed -e 's/\\[//g' -e 's/\\]//g'
+: 1422687046:0;time amixer -c 29 get 'Console' | awk '/^  Mono.*/ {print $5}'
+: 1422687101:0;time amixer -c 29 get 'Console' | awk '/^  Mono.*/ {print $5=="[off]"?"---":$4}'
+: 1422687146:0;time amixer -c 29 get 'Console' | awk '/^  Mono.*/ {print $5=="[off]"?"---":$4}' | sed -e 's/\[//g' -e 's/\]//g'
+: 1422687262:0;~/etc/dwm/status.sh
+: 1422687585:0;vim Makefile
+: 1422688263:0;make | grep error
+: 1422688273:0;make | grep 'error'
+: 1422688277:0;make | grep 'error:'
+: 1422688298:0;make | awk '/error/{print $0}'
+: 1422688305:0;make | awk '/error/{print $1}'
+: 1422688310:0;make | awk '/error\:/{print $1}'
+: 1422688330:0;cat out
+: 1422688338:0;cat out : grep error
+: 1422688342:0;cat out | grep error
+: 1422688531:0;make &> out 
+: 1422688533:0;cat out | grep error:
+: 1422688806:0;time ./dwmst
+: 1422689586:0;./dwmst | dzen2 -p
+: 1422689713:0;make instal
+: 1422689760:0;cd etc/dwmst
+: 1422689768:0;cd code/dwmst && zcl
+: 1422689981:0;dwmst -o
+: 1422690001:0;make uninstall
+: 1422690440:0;make -i 0
+: 1422690451:0;./dwmst -i .9
+: 1422690473:0;./dwmst -i 0.9
+: 1422690513:0;./dwmst -i 0 | dzen2
+: 1422690523:0;bg
+: 1422691882:0;make uninstall clean
+: 1422691894:0;make clean
+: 1422691909:0;make; make install clean
+: 1422692503:0;./dwmst
+: 1422692562:0;make install
+: 1422692569:0;./dwmst -i 0
+: 1422692640:0;make clean uninstall; make; make install clean
+: 1422692714:0;./dwmst -o
+: 1422692845:0;pacups
+: 1422692919:0;make uninstall clean; make; make install clean
+: 1422693040:0;make -f $HOME/code/dwmst/makefile uninstall clean; make -f $HOME/code/dwmst/makefile; make -f $HOME/code/dwmst/makefile install clean
+: 1422693207:0;pacman -Syu
+: 1422693352:0;pacman -Qdt
+: 1422693364:0;pacman -Qet
+: 1422693422:0;pacman -S --help
+: 1422693598:0;pacman -Ql pacman | awk -F"[/ ]" '/\/usr\/bin/ {print $5}'
+: 1422693604:0;checkupdates
+: 1422693637:0;which checkupdates
+: 1422693646:0;sudo vim /usr/bin/checkupdates
+: 1422694478:0;anacron
+: 1422694508:0;systemctl start cronie
+: 1422694510:0;systemctl enable cronie
+: 1422694520:0;bak2srv
+: 1422694542:0;crontab -e
+: 1422694707:0;journalctl -xe
+: 1422694859:0;echo $SZHDIR
+: 1422694883:0;source .zshenv
+: 1422694904:0;zup
+: 1422694905:0;echo $ZSHDIR
+: 1422694942:0;@help colors
+: 1422694973:0;clear
+: 1422694975:0;make dwm
+: 1422694997:0;which makedwm
+: 1422695134:0;cd code/dwm
+: 1422695240:0;cp -r src /tmp/makepkg/dwm/
+: 1422695329:0;rm /tmp/makepkg/dwm/src/{config.h,Dwm,dwm-6.0.tar.gz}
+: 1422695345:0;rm /tmp/makepkg/dwm/src/dwm
+: 1422695347:0;rm /tmp/makepkg/dwm/src/Dwm
+: 1422695361:0;cp config.h /tmp/makepkg/dwm/src/config.h
+: 1422695369:0;makepkg -efi --noconfirm --skipinteg
+: 1422695492:0;cd /tmp/makepkg/dwm/src/dwm-6.0
+: 1422695506:0;cd -
+: 1422695510:0;cd src/dwm-6.0
+: 1422695595:0;cd ../../..
+: 1422695607:0;cp -r /var/abs/community/dwm dwm
+: 1422695632:0;cd dwm
+: 1422695635:0;makepkg -i
+: 1422695892:0;makepkg --efi
+: 1422695895:0;makepkg -efi
+: 1422696033:0;makepkg -efi --skipinteg --noconfirm
+: 1422696545:0;@help cols
+: 1422697702:0;makedwm
+: 1422698898:0;cd doe/dwmst
+: 1422698904:0;cd code/dwmst
+: 1422699326:0;makestatus
+: 1422699369:0;make
+: 1422699403:0;dwmst -i 0
+: 1422699511:0;xsetroot -name "$(echo $(uname -r)) | DWM"
+: 1422699523:0;xsetroot -name "Hello DWM, my name is Tyler"
+: 1422699534:0;xsetroot -name "DWM-6.0"
+: 1422699540:0;xsetroot -name "  DWM-6.0"
+: 1422699558:0;xsetroot -name "   dwm-6.0"
+: 1422699610:0;startx
+: 1422699623:0;archey
+: 1422699665:0;wmname LG3D
+: 1422699666:0;wmname
+: 1422699667:0;zcl
+: 1422699681:0;start-pulseaudio-x11
+: 1422699711:0;ls /etc/X11/xinit/xinitrc.d
+: 1422699718:0;sysinfo
+: 1422699728:0;vim /etc/X11/xinit/xinitrc.d/40-libcanberra-gtk-module
+: 1422699750:0;sudo vim /etc/X11/xinit/xinitrc.d/40-libcanberra-gtk-module
+: 1422700264:0;htop
+: 1422700315:0;logout
+: 1422700329:0;startx
+: 1422700447:0;uname -h
+: 1422700451:0;hostname
+: 1422700475:0;zcl
+: 1422700477:0;zup
+: 1422700479:0;zcl
+: 1422700486:0;zup
+: 1422700488:0;zcl
+: 1422700495:0;zup
+: 1422700496:0;zcl
+: 1422700506:0;zup
+: 1422700507:0;zcl
+: 1422700537:0;cd bin
+: 1422700539:0;gitlog
+: 1422700556:0;git commit -m "Changes to dwmst and dwm"
+: 1422700564:0;git add .
+: 1422700566:0;git commit -m "Changes to dwmst and dwm"
+: 1422700612:0;git commit -m "Slight changes to dwmst, added xkill, sysinfo, and pacups"
+: 1422700620:0;git push
+: 1422700634:0;cd ..
+: 1422700636:0;cd code
+: 1422700641:0;cd dwmst
+: 1422700644:0;git init
+: 1422700655:0;make clean
+: 1422700661:0;git add .
+: 1422700771:0;echo "# dwmst" >> README.md
+: 1422700777:0;git add README.md
+: 1422700792:0;git -m "first commit"
+: 1422700798:0;git commit -m "first commit"
+: 1422700810:0;git remote add origin https://github.com/tylerjcw/dwmst.git
+: 1422700818:0;git push -u origin master
+: 1422700879:0;cd ../dwm
+: 1422700890:0;git commit -m "Slight changes to dwm"
+: 1422700907:0;git add src
+: 1422700912:0;git add config.h
+: 1422700922:0;git commit -m "Slight changes to dwm"
+: 1422700929:0;gitlog
+: 1422700939:0;git push origin master
+: 1422701088:0;dwmst -h
+: 1422701124:0;cd ../dwmst
+: 1422701130:0;git add dwmst.c
+: 1422701171:0;git commit -m "Fixed a typo in 'display_usage()' regarding the default update interval"
+: 1422701176:0;git push origin master
+: 1422703288:0;scrot -cd 3
+: 1422703745:0;cd code/dwmst
+: 1422703750:0;git add .
+: 1422703785:0;git commit -m "merged 'dwmst.h' in to 'dwmst.c'"
+: 1422703795:0;git push origin master
+: 1422703836:0;git pull
+: 1422703869:0;git rm Readme.md
+: 1422703926:0;git pull
+: 1422703931:0;git add .
+: 1422703934:0;git commit -m "merged 'dwmst.h' in to 'dwmst.c'"
+: 1422703939:0;git push origin master
+: 1422704009:0;git add .
+: 1422704030:0;git commit -m "added screenshot to readme"
+: 1422704033:0;git push origin master
+: 1422704137:0;scrot --help
+: 1422704155:0;scrot -s
+: 1422704244:0;pacman -Sy
+: 1422704372:0;cd code/dwmst
+: 1422704377:0;git add Readme.md
+: 1422704507:0;git commit -m "Modified Readme.md, added usage information"
+: 1422704512:0;git push origin master
+: 1422704536:0;git add images
+: 1422704549:0;git commit -m "Added screenshots"
+: 1422704556:0;git push origin master
+: 1422704630:0;git add Readme.md
+: 1422704650:0;git commit -m "Last Readme.md edit"
+: 1422704661:0;git push origin master
+: 1422704756:0;git add Readme.md
+: 1422704761:0;cd code/dwmst
+: 1422704762:0;git add Readme.md
+: 1422704764:0;git commit -m "Last Readme.md edit"
+: 1422704770:0;git push origin master
+: 1422704834:0;git add Readme.md
+: 1422704835:0;git commit -m "Last Readme.md edit"
+: 1422704836:0;git push origin master
+: 1422704981:0;dwmst | dzen2
+: 1422705264:0;xsetroot -name < dwmst
+: 1422705272:0;xsetroot -name < ~/bin/dwmst
+: 1422705281:0;dwmst | xsetroot -name
+: 1422705386:0;git add Readme.md
+: 1422705402:0;git commit -m "Added more specific usage information to Readme.md"
+: 1422705409:0;git push origin master
+: 1422705443:0;git add Readme.md
+: 1422705452:0;git commit -m "Fixed typos"
+: 1422705454:0;git push origin master
+: 1422705489:0;git add Readme.md
+: 1422705490:0;git commit -m "Fixed typos"
+: 1422705491:0;git push origin master
+: 1422705519:0;git add Readme.md
+: 1422705520:0;git commit -m "Fixed typos"
+: 1422705521:0;git push origin master
+: 1422705857:0;git add Readme.md
+: 1422705871:0;git commit -m "installation instructions"
+: 1422705872:0;git push origin master
+: 1422705940:0;git add Readme.md
+: 1422705941:0;git commit -m "installation instructions"
+: 1422705942:0;git push origin master
+: 1422706799:0;make
+: 1422706815:0;./dwmst
+: 1422707129:0;cd code/dwmst
+: 1422707131:0;zcl
+: 1422707135:0;git add .
+: 1422707163:0;git commit -m "removed one image, added helpful commenting to dwmst.c"
+: 1422707175:0;git rm dwmst
+: 1422707178:0;git commit -m "removed one image, added helpful commenting to dwmst.c"
+: 1422707183:0;git push origin master
+: 1422707192:0;gitlog
+: 1422707445:0;git add Readme.md
+: 1422707459:0;git commit -m "fixed typo in Readme.md"
+: 1422707469:0;git push origin master
+: 1422707636:0;dwmst | dzen2 -fn bitocra
+: 1422707668:0;dwmst | dzen2 -fn bitocra -w 367 -x 656
+: 1422707675:0;dwmst | dzen2 -fn bitocra -w 367 -x 657
+: 1422707812:0;cd ./dwm
+: 1422707817:0;cd ../dwm
+: 1422707824:0;makepkg -efi --skipinteg
+: 1422707853:0;cd code/dwm
+: 1422707858:0;makepkg -efi --skipinteg --noconfirm
+: 1422707926:0;cd code/dwm
+: 1422707928:0;makepkg -efi --skipinteg
+: 1422708199:0;makedwm
+: 1422708207:0;startx
+: 1422708287:0;makedwm
+: 1422708438:0;cd code/dwm/src/dwm-6.0
+: 1422708439:0;make
+: 1422708451:0;cd ../..
+: 1422708461:0;makepkg -efi --skipinteg
+: 1422708479:0;pacman -R dwm
+: 1422708482:0;makepkg -efi --skipinteg
+: 1422708527:0;cd code/dwm
+: 1422708529:0;makepkg -efi --skipinteg
+: 1422708614:0;makedwm
+: 1422708944:0;cd etc
+: 1422708948:0;git add .

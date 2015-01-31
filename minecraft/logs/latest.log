@@ -1,0 +1,81 @@
+[02:06:55] [Client thread/INFO]: Setting user: komrade_toast
+[02:06:55] [Client thread/INFO]: (Session ID is token:ad031edbeb7f41b18e2f4d2d73bd07b8:d4cef7fe88a540978953d8c594172777)
+[02:07:01] [Client thread/INFO]: LWJGL Version: 2.9.3
+[02:07:02] [Client thread/INFO]: Reloading ResourceManager: Default
+[02:07:03] [Client thread/ERROR]: Couldn't initialize twitch stream
+[02:07:03] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:07:03] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[02:07:03] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:07:03] [Thread-6/INFO]: OpenAL initialized.
+[02:07:03] [Sound Library Loader/INFO]: Sound engine started
+[02:07:12] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:07:21] [Client thread/INFO]: Connecting to 192.168.1.2, 25565
+[02:07:26] [Client thread/INFO]: [CHAT] komrade_toast joined the game.
+[02:07:26] [Client thread/INFO]: [CHAT] Welcome, komrade_toast!
+[02:07:26] [Client thread/INFO]: [CHAT] Type /help for a list of commands.
+[02:07:26] [Client thread/INFO]: [CHAT] Type /list to see who else is online.
+[02:07:26] [Client thread/INFO]: [CHAT] Players online: 1 - World time: 8:50 PM
+[02:07:26] [Client thread/INFO]: [CHAT] You have no new mail.
+[02:09:00] [Client thread/INFO]: Reloading ResourceManager: Default
+[02:09:01] [Client thread/INFO]: SoundSystem shutting down...
+[02:09:02] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[02:09:02] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:09:02] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[02:09:02] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:09:02] [Thread-8/INFO]: OpenAL initialized.
+[02:09:02] [Sound Library Loader/INFO]: Sound engine started
+[02:09:07] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:09:11] [Client thread/INFO]: Reloading ResourceManager: Default
+[02:09:12] [Client thread/INFO]: SoundSystem shutting down...
+[02:09:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[02:09:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[02:09:12] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[02:09:12] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[02:09:13] [Thread-10/INFO]: OpenAL initialized.
+[02:09:13] [Sound Library Loader/INFO]: Sound engine started
+[02:09:18] [Client thread/INFO]: Created: 512x512 textures-atlas
+[02:11:14] [Client thread/ERROR]: Item entity 125733 has no item?!
+[02:11:14] [Client thread/ERROR]: Item entity 125733 has no item?!
+[02:11:14] [Client thread/ERROR]: Item entity 125733 has no item?!
+[02:11:54] [Client thread/ERROR]: Item entity 125750 has no item?!
+[02:11:54] [Client thread/ERROR]: Item entity 125750 has no item?!
+[02:16:16] [Client thread/INFO]: [CHAT] * komrade_toast is now AFK.
+[02:18:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.7.0_75]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:188) ~[?:1.7.0_75]
+	at h.a(SourceFile:61) [1.8.2-pre5.jar:?]
+	at avf.au(SourceFile:878) [1.8.2-pre5.jar:?]
+	at avf.a(SourceFile:323) [1.8.2-pre5.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.2-pre5.jar:?]
+Caused by: java.lang.NullPointerException
+	at gw.a(SourceFile:153) ~[1.8.2-pre5.jar:?]
+	at bcz.a(SourceFile:355) ~[1.8.2-pre5.jar:?]
+	at gw.a(SourceFile:144) ~[1.8.2-pre5.jar:?]
+	at gw$a.a(SourceFile:61) ~[1.8.2-pre5.jar:?]
+	at fi$1.run(SourceFile:13) ~[1.8.2-pre5.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[?:1.7.0_75]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[?:1.7.0_75]
+	at h.a(SourceFile:60) ~[1.8.2-pre5.jar:?]
+	... 3 more
+[02:18:57] [Client thread/FATAL]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NullPointerException
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.7.0_75]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:188) ~[?:1.7.0_75]
+	at h.a(SourceFile:61) [1.8.2-pre5.jar:?]
+	at avf.au(SourceFile:878) [1.8.2-pre5.jar:?]
+	at avf.a(SourceFile:323) [1.8.2-pre5.jar:?]
+	at net.minecraft.client.main.Main.main(SourceFile:124) [1.8.2-pre5.jar:?]
+Caused by: java.lang.NullPointerException
+	at gw.a(SourceFile:153) ~[1.8.2-pre5.jar:?]
+	at bcz.a(SourceFile:355) ~[1.8.2-pre5.jar:?]
+	at gw.a(SourceFile:144) ~[1.8.2-pre5.jar:?]
+	at gw$a.a(SourceFile:61) ~[1.8.2-pre5.jar:?]
+	at fi$1.run(SourceFile:13) ~[1.8.2-pre5.jar:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471) ~[?:1.7.0_75]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262) ~[?:1.7.0_75]
+	at h.a(SourceFile:60) ~[1.8.2-pre5.jar:?]
+	... 3 more
+[02:19:00] [Client thread/INFO]: Stopping!
+[02:19:00] [Client thread/INFO]: SoundSystem shutting down...
+[02:19:00] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com

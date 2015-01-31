@@ -51,4 +51,4 @@ BG2=#6095C5
 ^ca(1,${AP3})^fg(${BG2})^r(${DC1})^fg() ^fg(${FG3})^i(${IC3})^fg(${FG1}) ${AN3} ^pa(122)^fg(${BG2})^r(${DC1})^fg()^ca()\n\
 ^ca(1,${AP4})^fg(${BG2})^r(${DC1})^fg() ^fg(${FG3})^i(${IC4})^fg(${FG1}) ${AN4} ^pa(122)^fg(${BG2})^r(${DC1})^fg()^ca()\n\
 ^ca(1,${AP5})^fg(${BG2})^r(${DC1})^fg() ^fg(${FG3})^i(${IC5})^fg(${FG1}) ${AN5} ^pa(122)^fg(${BG2})^r(${DC1})^fg()^ca()")\
-| (dzen2 -y '783' -x '658' -fn "$FONT" -bg ${BG1} -fg ${FG1} -l 5 -h 26 -tw 35 -w 125 -m -p -e 'onstart=uncollapse;leaveslave=exit;button1=menuexec;button2=exit;button3=exit;')
+| (dzen2 -y '783' -x '986' -fn "$FONT" -bg ${BG1} -fg ${FG1} -l 5 -h 26 -tw 35 -w 125 -m -p -e 'onstart=uncollapse;leaveslave=exit;button1=menuexec;button2=exit;button3=exit;')

@@ -1,12 +1,8 @@
 source $HOME/etc/zsh/zshenv
+source $HOME/etc/zsh/funcs.zsh
 
 clear
-
-echo -e "Please wait, updating ${BLU}pacman${WHT} repos..."
-sudo pacman -Sy &> $HOME/log/pacman.log
-sudo pacman -Qu | wc -l > $HOME/log/updates.log
-
-mpd -v &> $HOME/log/mpd.log &
+pacups
 
 clear
 echo -e "Welcome to ${blu}ArchLinux${rst}, $(whoami)!\n"

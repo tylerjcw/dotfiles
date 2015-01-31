@@ -1,5 +1,5 @@
 #!/bin/zsh
-alias zcl="clear && echo -e \"Welcome to ${blu}ArchLinux${rst}, $(whoami)!\n\""
+alias zcl="clear && echo -e \"${blu}ArchLinux${rst} (${wht}$(uname -r)${rst})\""
 alias zup="source ~/.zshrc"
 alias mpd="mpd $CONFDIR/mpd/mpd.conf"
 alias icanhazip="curl ipv6.icanhazip.com;curl ipv4.icanhazip.com"
@@ -8,3 +8,4 @@ alias pacman="sudo pacman"
 alias systemctl="sudo systemctl"
 alias subl="subl 2> /dev/null"
 alias scan="scanimage -d pixma --format=tiff >"
+alias gitlog="git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"

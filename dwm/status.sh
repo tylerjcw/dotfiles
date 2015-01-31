@@ -1,0 +1,1 @@
+$HOME/bin/dwmst | dzen2 -p -xs 1 -x 656 -y 742 -fg '#dcdcdc' -bg '#303030' -h 26 -w 367 -ta r -fn '-*-bitocra-*-*-*-*-*-*-*-*-*-*-*-*' &

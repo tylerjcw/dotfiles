@@ -1,1 +1,0 @@
-$HOME/bin/dwmstatus | dzen2 -xs 1 -x 638 -y 742 -fg '#dcdcdc' -bg '#303030' -h 26 -w 385 -ta r -fn '-*-bitocra-*-*-*-*-*-*-*-*-*-*-*-*' &
